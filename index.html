@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="main.css">
+        <title>ストップウォッチ</title>
+    </head>
+ 
+    <body>
+        <div class="wrapper">
+            <h3>STOPWATCH</h3>
+            <div class="showTime">
+                <span class="hour">00</span>:<span class="min">00</span>:<span class="sec">00</span>.<span class="msec">000</span>
+            </div>
+            <div>
+                <button class="start" onclick="start()">START</button>
+                <button class="stop" onclick="stop()" disabled>STOP</button>
+                <button class="reset" onclick="reset()" disabled>RESET</button>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>  

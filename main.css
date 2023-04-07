@@ -1,0 +1,61 @@
+.wrapper {
+    width: 300px;
+    text-align: center;
+    background-color: pink;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+h3 {
+    text-shadow: 1px 1px 2px black;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(247, 175, 236);
+}
+
+.showTime {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+.hour {
+    color: rgb(164, 83, 240);
+    margin: 0 5px;
+}
+
+.min {
+    color: rgb(32, 161, 241);
+    margin: 0 5px;
+}
+
+.sec {
+    color: rgb(240, 164, 22);
+    margin: 0 5px;
+}
+
+.msec {
+    color: rgb(250, 230, 18);
+    margin: 0 5px;
+}
+
+button {
+    width: 65px;
+    height: 35px;
+    border: solid thin;
+    border-radius: 7px;
+    background-color: darkseagreen;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:disabled {
+    cursor: default;
+    pointer-events: none;
+    background-color: rgba(164, 200, 164, 0.595);
+}
